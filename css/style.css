@@ -1,0 +1,661 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+h1, #mainheading {
+	font: 20px arial, tahoma, verdana, helvetica, times new roman;;
+	text-align: left;
+	margin-bottom: 14px;
+}
+
+th {
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+td {
+	padding-bottom: 6px;
+	letter-spacing: 1px;
+}
+
+hr {
+	width: 950px;
+	background-color: #666;
+	color: #fff;
+	border-width: 0px;
+	height: 1px;
+	line-height: 0px;
+}
+
+body {
+    line-height: 1;
+    background: #000;
+    width: 1024px;
+    height: 800px;
+    margin: 0 auto;
+    color: #fff;
+    font: 10px arial, tahoma, verdana, helvetica, times new roman;;
+    letter-spacing: 1px;
+}
+
+li {
+	cursor: pointer;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.nopointer {
+	cursor: default;
+	border: none;
+	width: 160px;
+}
+
+#permstable {
+	padding: 0px 46px;
+}
+
+.permsheading {
+	width: 100px;
+}
+
+#damianpic {
+	background: url('../images/envy_title.png');
+	width: 193px;
+	height: 97px;
+}
+
+#top {
+	height: 130px;
+}
+
+
+#rwytop, #bwytop {
+	height: 76px;
+}
+
+#rwy {
+	margin: 44px 0px 20px 195px;
+	float: left;
+}
+
+#rwycenter, #bwycenter {
+	margin: 54px auto 0px;
+	width: 151px;
+}
+
+#bwy {
+	float: right;
+	margin: 44px 195px 20px 0px;
+}
+
+#mainimage {
+	margin: 0 auto;
+	width: 950px;
+	height: 359px;
+	background: url('../images/rwy_big_pic.jpg');
+	top: 130px;
+}
+
+#leftimage {
+	background: url('../images/leftimage.jpg');
+	width: 465px;
+	height: 359px;
+	float: left;
+	margin-left: 37px;
+}
+
+#rightimage {
+	background: url('../images/rightimage.jpg');
+	width: 465px;
+	height: 359px;
+	float: right;
+	margin-right: 37px;
+}
+
+#bottom {
+	position: absolute;
+	top: 500px;
+	width: 1024px;
+}
+
+#envytitle {
+	margin: 16px auto 10px;
+	width: 193px;
+}
+
+#welcometext {
+	margin: 0 auto;
+	width: 53px;
+}
+
+.nav {
+	font-size: 7px;
+	margin: 0 auto;
+}
+
+.nav ul {
+	margin: 0 auto;
+	width: 554px;
+}
+
+.nav ul li {
+	display: inline;
+	text-decoration: none;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.nav ul li img {
+	cursor: hand;
+}
+
+#centermenu {
+	width: 225px;
+	height: 359px;
+	background: #000;
+	left: 10px;
+	position: relative;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+	color: #fff;
+}
+
+#centermenustatic {
+	width: 225px;
+	height: 309px;
+	background: #000;
+	left: 268px;
+	opacity: 0.8;
+	color: #fff;
+}
+
+.wrapper {
+	/*padding: 36px;*/
+}
+
+#teampanel {
+	width: 390px;
+	height: 288px;
+	background: #000;
+	left: 466px;
+	top: -359px;
+	position: relative;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+	color: #fff;
+	padding: 36px;
+}
+
+#stylingbox, #cuttingbox, #coloursbox, #techcoloursbox, #juniorbox, #gentsbox, #over65sbox,
+	#academystylingsbox, #hairextensionsbox, #permsbox {
+	top: 40px;
+	position: absolute;
+}
+
+#centermenustatic {
+	position: relative;
+	left: 237px;
+	width: 225px;
+	padding-top: 50px;
+}
+
+#teammenu li {
+	font-size: 8px;
+}
+
+#cmenu, #centermenu2ndlevel {
+	position: relative;
+	width: 225px;
+	padding-top: 30px;
+	font-size: 11px;
+}
+
+.aboutenvymenu, .meettheteammenu {
+	color: #fff;
+	text-decoration: none;
+}
+
+.aboutenvymenu a:visited, .meettheteammenu a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.aboutenvymenu a:current, .meettheteammenu a:current {
+	color: #666;
+	text-decoration: none;
+}
+
+#contactinfo {
+	text-align: center;
+	font-size: 8px;
+}
+
+#cmenuaddress {
+	margin-bottom: 20px;
+}
+
+#aboutenvy, #contactustitle, #promotionstitle, #meet_the_team h3 {
+	width: 102px;
+	cursor: pointer;
+}
+
+#academytitle, #servicestitle {
+	width: 74px;
+}
+
+h3 {
+	border-bottom: 1px solid #fff;
+	width: 80px;
+	text-align: center;
+	margin: 18px auto;
+	height: 16px;
+}
+
+#historybox {
+	margin-top: -5px;
+}
+
+#historybox p {
+	font-family: times new roman;
+	font-size: 9px;
+	line-height: 13px;
+	margin-top: 14px;
+}
+
+#historybox h3 {
+	border: none;
+	text-align: left;
+	margin: 18px 0;
+}
+
+#pricelisttitle {
+	width: 92px;
+}
+
+#whynot {
+	width: 200px;
+	margin-left: 95px;
+	height: 172px;
+	font-size: 65px;
+	letter-spacing: 25px;
+	font-weight: bold;
+}
+
+#why {
+	border-bottom: 3px solid #fff;
+}
+
+#not {
+	padding-left: 10px;
+}
+
+.promotionsbox {
+	font-size: 20px;
+	letter-spacing: 5px;
+	border: 4px solid #fff;
+	padding: 10px 18px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#recommendbox {
+	width: 205px;
+}
+
+#stylingbox {
+	width: 400px;
+}
+
+#loyaltybox {
+	width: 183px;
+}
+
+#app10mins {
+	margin-top: 10px;
+}
+
+#map {
+	margin: -36px;
+}
+
+#promotionstext {
+	font-size: 11px;
+	font-family: arial, tahoma, verdana, times new roman;
+	text-align: center;
+	line-height: 20px;
+	letter-spacing: 2px;
+	margin: 32px auto;
+}
+
+#bwyhistory p {
+	font-family: Times new roman, arial, tahoma, verdana;
+	margin-bottom: 10px;
+	font-size: 10px;
+	letter-spacing: 0px;
+	line-height: 16px;
+}
+
+#bwyhistory h3 {
+	font-size: 11px;
+	margin: 18px 0;
+	border: none;
+	font-family: arial, tahoma, verdana, times new roman;
+}
+
+#cmenu ul li, #centermenustatic ul li, #centermenu2ndlevel ul li {
+	margin-bottom: 14px;
+	list-style: none;
+	text-align: center;
+	color: #fff;
+}
+
+.centermenupagetitle, .centermenu2ndleveltitle {
+	font-size: 10px;
+	margin: 0 auto;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #fff;
+	width: 90px;
+}
+
+.centermenuheading li {
+	font-size: 10px;
+}
+
+.nav ul li a:visited, .nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#home {
+	width: 33px;
+	height: 7px;
+}
+
+#products {
+	width: 63px;
+	height: 7px;
+}
+
+.priceheadings {
+	padding: 10px 30px 0px 0px;
+}
+
+#pricelist {
+	width: 67px;
+	height: 7px;
+}
+
+.priceitems {
+	font-size: 10px;
+	font-family: Times new roman;
+	letter-spacing: 1.5px;
+	height: 360px;
+}
+
+.priceitems td, .staffheading, #servicedescription, h1 {
+	padding-right: 26px;
+}
+
+.priceitems td {
+	margin-right: -10px;
+}
+
+.coupleditem {
+	margin-right: 10px;
+}
+
+.bespokeclipins {
+	position: absolute;
+	left: 290px;
+	top: 40px;
+	width: 120px;
+	line-height: 12.8px;
+}
+
+.bespoketext {
+	margin-top: 10px;
+}
+
+.bespoketitle {
+	font-family: arial, tahoma, verdana, helvetica, times new roman;;
+	font-weight: normal;
+}
+
+.topheadings {
+	margin: 10px 15px 34px 0px;
+	float: right;
+}
+
+.staffheadings {
+	margin-right: 15px;
+	margin-top: 10px;
+	height: 50px;
+	float: right;
+}
+
+.topheadings li, .staffheadings li {
+	display: inline;
+	margin-right: 11px;
+	text-align: center;
+}
+
+.leftcontentbox {
+	float: left;
+}
+
+.rightcontentbox {
+	float: right;
+	width:186px;
+	margin-left:40px;
+}
+
+.leftcontentbox ul li {
+	list-style-type: none;
+	line-height: 1.81em;
+}
+
+.contentbox {
+	clear: both;
+}
+
+.senior {
+	padding-right: 9px;
+}
+
+.director {
+
+}
+
+.stylist {
+	padding-right: 7px;
+}
+
+.titlebox h1 {
+	width: 114px;
+	float: left;
+}
+
+.pricestext {
+	float: left;
+	width: 113px;
+}
+
+.pricestext h3 {
+	border: none;
+	text-align: left;
+}
+
+.prices {
+	float: right;
+	width: 80px;
+	margin-top: 37px;
+}
+
+.leftprices {
+	width: 40px;
+}
+
+.leftacademystylingbox {
+	float: left;
+	width: 220px;
+}
+
+.rightacademystylingbox {
+	float: right;
+	width: 194px;
+}
+
+.academystylingwrapper {
+	margin-bottom: 40px;
+}
+
+.academystylingwrapper ul li {
+	list-style-type: none;
+	line-height: 16px;
+}
+
+.academystylingwrapper h3, #leftover65sbox h3 {
+	font: 12px arial, tahoma, verdana, helvetica, times new roman;;
+	margin: 10px 0px;
+}
+
+#rightover65sbox {
+	float: right;
+	width: 200px;
+	list-style-type: none;
+	line-height: 16px;
+}
+
+#leftover65sbox {
+	float: left;
+	width: 190px;
+	margin-bottom: 68px;
+}
+
+#rightindulgebox {
+	float: right;
+	width:90px;
+}
+
+#fullwidthbox {
+	width: 310px; 
+}
+
+#fullwidthbox p {
+	letter-spacing: 1px;
+	line-height: 17px;
+}
+
+#leftindulgebox {
+	float: left;
+	width: 275px;
+}
+
+#lefttechcoloursbox {
+	float: left;
+	width: 190px;
+}
+
+#leftover65sbox ul, #lefttechcoloursbox ul, #leftindulgebox ul {
+
+}
+
+#leftover65sbox ul li, #lefttechcoloursbox ul li {
+	list-style-type: none;
+	line-height: 18px;
+}
+
+#leftindulgebox ul li {
+	list-style-type: none;
+	line-height: 20px;
+}
+
+#leftover65sbox h1 {
+	margin-bottom: 25px;
+}
+
+.over65stable tr td{
+	padding-bottom: 0.2px;
+	line-height: 18px;
+}
+
+.over65stable {
+	border-collapse: collapse;
+}
+
+#indulgetable {
+	margin-top: 19px;
+}
+
+.cmenufooter {
+	position: absolute;
+	top: 240px;
+	font-size: 10px;
+	font-family: Times new roman;
+	letter-spacing: 1.5px;
+}
+
+.academyfooter {
+	font-size: 10px;
+	font-family: Times new roman;
+	letter-spacing: 1.5px;
+	padding-top: 30px;
+	clear: both;
+}
+
+.stafftitle ul li {
+	display: inline;
+}
+
+#bookonline {
+	width: 82px;
+	height: 7px;
+}
+
+#services {
+	width: 57px;
+	height: 7px;
+}
+
+#academy {
+	width: 58px;
+	height: 7px;
+}
+
+#contactus {
+	width: 74px;
+	height: 7px;
+}
+
+#footer {
+	font: 8px Times New Roman, Sans Serif, Arial;
+	width: 300px;
+	margin: 25px auto 40px;
+	letter-spacing: 1px;
+	padding: 0px;
+	text-align: center;
+}
